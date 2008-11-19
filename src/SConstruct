@@ -1,0 +1,20 @@
+#Build Script for SCons
+
+import os
+import MyNotepad
+
+#check if wxPython/wxWidget is installed
+wxInstalled = False
+
+for path in os.sys.path:
+	if path.find('wx-2.8') > 0:
+		wxInstalled = True
+		break
+	
+if wxInstalled == False:
+	print "\nWarning:"
+	print "No wxPython/wxWidget 2.8 is installed."
+	print "Please download it first before run the application. http://wxPython.org\n"
+else:
+	print "\nChecked OK"
+	MyNotepad.RunApp().MainLoop()

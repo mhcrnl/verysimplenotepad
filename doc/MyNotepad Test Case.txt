@@ -1,0 +1,49 @@
+#Name: 
+My Notepad Test Case
+
+#Author Zhe Wang
+
+#Description: 
+Test Cases for My Notepad application
+
+#Test Cases:
+
+Case 1: 
+Desc: Test Default Size of My Notepad when the app is opened
+Expected result: The default size should be 600x600
+
+Case 2:
+Desc: Test Text Ctrl of wxPython, set value text ctrl first and then get value
+Expeccted result: The 2 values should be equal
+
+Case 3:
+Desc: Test New File feature, as click menu item or toolbar item
+Expeccted result: The notepad should be blank and no filename should be assigned
+
+Case 4:
+Desc: Test Save File feature, to save "TEST SAVE FILE" to file testsave.txt
+Expeccted result: The target file testsave.txt should be saved with word 'TEST SAVE FILE'
+
+Case 5:
+Desc: Test Open File feature, to open file testopen.txt and load text "TEST OPEN FILE"
+Expeccted result: The target file testopen.txt should be opened and notepad should take words "TEST OPEN FILE"
+
+Case 6:
+Desc: Test Select All feature, set notepad's content as "TEST SELECT ALL", select all, and get selection
+Expeccted result: The selected words should be "TEST SELECT ALL"
+
+Case 7: 
+Desc: Test Delete selection feature, set notepad's content as "TEST DELETE", select all, and delete
+Expeccted result: The notepad should be blank
+
+Case 8:
+Desc: Test Copy selection feature, set notepad's content as "TEST COPY", select all and copy
+Expeccted result: The selected words should be same as the content in clipboard
+
+Case 9:
+Desc: Test Paste feature, set clipboard's content as "TEST PASTE", then paste
+Expeccted result: The notepad's content should be same as clipboard
+
+Case 10:
+Desc: Test Cut selection feature, set notepad's content as "TEST CUT", select all and copy
+Expeccted result: The selected words should be same as the content in clipboard, and notepad should be blank
