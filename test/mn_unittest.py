@@ -116,6 +116,10 @@ class MN_CutSelectionTest(unittest.TestCase):
 		            wx.TheClipboard.Close()
 
 		assert mn_win.text.GetValue() == '' and data.GetText() == 'TEST CUT', 'CUT selection does NOT work normally'
-		
+
+
+def start():
+	unittest.main()
+
 if __name__ == '__main__':
 	unittest.main()
