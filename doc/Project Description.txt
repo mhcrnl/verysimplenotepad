@@ -52,4 +52,6 @@ User documentation tool: MyNotepad
 
 Code coverage tool:  coverage http://nedbatchelder.com/code/modules/coverage.html
 
-Memory analysis tool:  profiler
+Memory analysis tool:  valgrind http://valgrind.org/
+
+Profile tool: python profiler
